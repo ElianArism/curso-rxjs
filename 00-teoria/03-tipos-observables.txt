@@ -1,0 +1,7 @@
+
+COLD Observables
+  Cuando la data es producida por un observable
+  en si mismo
+HOT Observables
+  Cuando la data es producida fuera del observable
+  que envia valores

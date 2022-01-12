@@ -1,0 +1,30 @@
+
+Para que conviene usar rxjs 
+- Eventos en la UI 
+- Comunicaciones por sockets
+- Notificar cambios en un objeto
+- Al trabajar con flujos de informacion (Streams)
+
+Piezas fundamentales de la programacion reactiva 
+* Observables 
+  - Son la fuente de informacion
+  - Pueden emitir un, ningun o varios valores
+  - Pueden emitr errores
+  - Pueden ser infinitos o finitos (completarse) 
+  - Pueden ser asincronos o sincronos
+
+* Subscribers
+  - Están pendientes de lo que realiza el Observable
+  - Consumen la data del Observable
+  - Pueden recibir errores y eventos del Observable  
+  - Desconocen todo lo que se encuentra detrás del Observable 
+  (se refiere a su implementacion)
+
+* Operators 
+  - Usados para transformar los Observables (map, group, scan, etc.)
+  - Usados para filtrar Observables (filter, distinc, skip, etc.)
+  - Usados para combinar Observables 
+  - Usados para crear Observables 
+
+
+
